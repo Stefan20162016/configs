@@ -1,0 +1,108 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.renderLineHighlight": "gutter",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "editor.wordWrapColumn": 280,
+    "editor.wordWrap": "bounded",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "window.zoomLevel": 1,
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": false,
+    "editor.minimap.maxColumn": 200,
+    "window.menuBarVisibility": "visible",
+    "window.restoreWindows": "one",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.minimap.showSlider": "always",
+    "editor.fontFamily": "monospace",
+    "files.autoSaveDelay": 300,
+    "editor.mouseWheelScrollSensitivity": 2,
+    "editor.mouseWheelZoom": true,
+    "editor.autoClosingBrackets": "never",
+    "editor.renderWhitespace": "boundary",
+    "editor.renderControlCharacters": false,
+    "breadcrumbs.enabled": true,
+    "workbench.editor.showTabs": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.*":true
+    },
+    "workbench.colorCustomizations": {
+        "statusBar.background" : "#1a1a1ada",
+        "statusBar.noFolderBackground" : "#212121",
+        "statusBar.debuggingBackground": "#263238",
+        "editor.wordHighlightBorder": "#ff00bfd3",
+        "editor.lineHighlightBackground": "#1e83e2d5",
+        "editor.lineHighlightBorder": "#15ff00a6",
+        "editorBracketMatch.border": "#ff0000",
+        "editorBracketMatch.background": "#ff0000e1",
+        "editor.findMatchBorder": "#ff0000c2",
+        "editor.findMatchHighlightBorder": "#fbff00e5",
+        "editor.findMatchHighlightBackground": "#ff00ff9d",
+        "editor.wordHighlightStrongBorder": "#51ff00c2",
+        "editor.selectionHighlightBackground": "#00ffff5d",  // "editor.selectionHighlightBackground": "#00ffff5d",
+        //ff0000a6
+        "editor.selectionBackground": "#ffffff98", // "editor.selectionBackground": "#ffffff98",
+        //"editor.background": "#615c5c17",
+       // "editorOverviewRuler.border": "#00fff2c7",
+       //"editorOverviewRuler.rangeHighlightForeground": "#ffee00ce",
+        "editorOverviewRuler.infoForeground": "#eeff00d7",
+        "editorOverviewRuler.errorForeground": "#ff0000be",
+        "editorOverviewRuler.wordHighlightForeground": "#f700ffe7",
+        "editorOverviewRuler.wordHighlightStrongForeground": "#ff00eacc",
+        "editorOverviewRuler.findMatchForeground": "#66ff00d7",
+        "editorOverviewRuler.selectionHighlightForeground": "#ff0000d3",
+        "editorOverviewRuler.addedForeground": "#ff0000b2",
+        "editorOverviewRuler.bracketMatchForeground": "#ff0000dc",
+        //"scrollbarSlider.activeBackground": "#ff0000",
+        "scrollbarSlider.background": "#f5f5f53a", //"#00ffff28",
+        "editor.inactiveSelectionBackground": "#6688ccd5"
+
+        
+
+    },
+    "window.titleBarStyle": "custom",
+    "search.showLineNumbers": true,
+    "editor.autoClosingQuotes": "never",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorWidth": 4,
+    "search.location": "sidebar",
+    "editor.cursorSmoothCaretAnimation": true,
+    "window.title": "${activeEditorMedium}",
+    "terminal.integrated.fontSize": 18,
+    "editor.fontSize": 19,
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}",
+    "clang-format.fallbackStyle": "Google",
+    "C_Cpp.default.intelliSenseMode": "clang-x64",
+    "workbench.iconTheme": "vscode-great-icons",
+    "editor.tokenColorCustomizations": {
+            "comments": "#52a0cb"
+            //"comments": "#ff0000ed"
+            //"comments": "#1076fb"
+        
+    },
+    "[cpp]": {
+        "editor.showUnused": false,
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "editor.showFoldingControls": "always",
+    "[c]": {
+        "editor.hover.sticky": true,
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": false
+        },
+    },
+    "editor.showUnused": false,
+    "workbench.statusBar.feedback.visible": false,
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    "C_Cpp.intelliSenseEngine": "Tag Parser"
+    
+}
